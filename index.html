@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>agendajs</title>
+</head>
+<body>
+    
+
+</html>
+    <h1>Agenda de contactos</h1>
+    <form id="formularioContacto">
+      <label for="name">Nombre:</label>
+      <input type="text" id="nombre" required><br>
+      <label for="telefono">Teléfono:</label>
+        <input type="number" id="telefono" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+      <button type="submit">Agregar contacto</button>
+    </form>
+    <h2>Lista de contactos</h2>
+    <table id="contacto-lista">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Teléfono</th>
+          <th>Email</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <h2>Tarjetas de contactos</h2>
+    <div id="card-container"></div>
+    <script src="agenda.js"></script>
+  </body>
+</html>
+
